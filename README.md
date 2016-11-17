@@ -27,7 +27,7 @@ The simplest way to install the script is to `clone` the repository,
 to make a symbolic link into `/usr/local/bin/`:
 
 ```bash
-ln -s $(pwd)/SpotifyControl /usr/local/bin/spotify
+make install
 ```
 
 
@@ -44,8 +44,10 @@ Remotely, Spotify will not start properly. Optionally, pass a Spotify URI as a s
 * To go to the next track, type `spotify next`.
 * To go to the previous track, type `spotify previous` or `spotify 
 prev`.
-* To print information about the currently playing track, 
+* To print information about the currently Spotify settings
 type `spotify info`
+* To print information about the current song
+type `spotify song`
 * To jump to a particular time in the track, type `spotify jump N`,
 where N is the track position in seconds.
 * To fast forward, type `spotify forward N` where N is the number of
